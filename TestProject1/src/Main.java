@@ -1,0 +1,20 @@
+
+public class Main {
+	public static void main(String[] args) {
+		for (int i=1; i<=10; i++) {
+			System.out.print(i+" ");
+			int factors = 0;
+			if (i!=2 && i%2!=0) {
+				for (int k=1; k<= i; k++) {
+					if (i%k==0) {
+						factors++;
+					}
+				}
+			}
+			if (factors==2) {
+				System.out.print("Prime");
+			}
+			System.out.println();
+		}
+	}
+}
