@@ -16,6 +16,7 @@ public class Main {
 				System.out.print("Prime");
 			}
 			System.out.println();
+			//comment? w
 		}
 	}
 }
