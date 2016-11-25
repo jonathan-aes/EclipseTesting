@@ -13,12 +13,15 @@ public class Main {
 				}
 			}
 			if (factors==2) {
-				System.out.print("Prime");
+				System.out.print("Newchange");
 			}
 			System.out.println();
 			//comment? w
 			//comment from the website!!!!!!
 			//another comment from the website!!!!
+			//edited from notepad!!!!!!
+			//Comment after renaming working tree to EclipseTesting
+			//changed with initial change staged
 		}
 	}
 }
